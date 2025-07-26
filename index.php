@@ -25,7 +25,7 @@
 <body>
     <?php include "navbar1.php" ?>
 
-        <!-- Banner -->
+    <!-- Banner -->
     <div class="rts-banner-six-area bg-image-solution banner-six-height">
         <video muted loop autoplay>
             <source src="assets/images/bg-3.mp4" type="video/mp4">
@@ -53,11 +53,17 @@
             <!-- SECTION 1: Intro -->
             <div class="row align-items-center mb-5">
                 <div class="col-md-6">
-                    <h2 class="text-success fw-bold mb-3">Breathing Change into Every Engine</h2>
-                    <p class="text-muted fs-5">
-                        At <strong>Novorbis Itus</strong>, we believe cleaner air starts with bold ideas. Driven by
-                        purpose and powered by technology, we design emission control solutions that bring diesel
-                        generators into a greener future.
+                    <h2 class="text-success  fw-bold mb-3" style="font-size: 4.2rem;">Turning Emissions into Impact
+                    </h2>
+                    <!-- <h2 class="text-success fw-bold mb-3">into Impact </h2> -->
+
+                    <p class=" fs-5">
+                        At <strong>Novorbis Itus</strong>, we are engineering a sustainable future — the Viksit Bharat
+                        we all aspire to
+                        build.
+                        Rooted in India's spirit of innovation, we tackle high-impact pollution sources head-on
+                        capturing contaminants and converting them into cleaner outcomes. From pollution to solution —
+                        every source counts.
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -76,13 +82,15 @@
                         class="img-fluid custom-img-size d-block mx-auto">
                 </div>
                 <div class="col-md-6">
-                    <h6 class="text-uppercase text-muted fw-semibold">Our RECDs</h6>
-                    <h3 class="text-success fw-bold mb-3">Certified. Reliable. Built for impact.</h3>
+                    <h6 class="text-uppercase  fw-semibold">Our Offerings</h6>
+                    <h3 class="text-success fw-bold mb-3">The Future of Diesel Emission Control-Certified by ARAI,
+                        Industry Tested. </h3>
                     <p class="title">
-                        Our Retrofit Emission Control Devices help reduce harmful emissions like PM, CO, and
-                        hydrocarbons — without compromising performance. Whether for a small generator or a
-                        high-capacity unit, <strong>Novorbis RECDs</strong> are built to meet tomorrow’s environmental
-                        needs today.
+                        At <strong>Novorbis Itus</strong>, we are reshaping how India manages diesel emissions. Our
+                        <strong>Filter-less Retrofit
+                            Emission Control Devices (RECDs)</strong> are <strong>ARAI-certified and field-tested across
+                            industries</strong>,
+                        delivering real results upto 90% reduction of target pollutants.
                     </p>
                 </div>
             </div>
@@ -91,13 +99,16 @@
             <div class="row align-items-center">
 
                 <div class="col-md-6">
-                    <h6 class="text-uppercase text-muted fw-semibold">Our CAPS</h6>
-                    <h3 class="text-success fw-bold mb-3">Efficient. Robust. Built for sensitive spaces.</h3>
+                    <!-- <h6 class="text-uppercase  fw-semibold">Our CAPS</h6> -->
+                    <h3 class="text-success fw-bold mb-3"> A Cleaner Goodbye. A Greener Future.</h3>
                     <p class="title">
-                        <strong>Crematorium Air Purification System</strong> is specially designed to reduce harmful
-                        emissions released during cremations. It targets pollutants like Particulate Matter, VOCs, and
-                        toxic gases, ensuring cleaner air in and around crematoriums. With strong filtration and low
-                        maintenance, <strong>CAPS</strong> supports environmental care where it’s needed most.
+                        Our <strong>Crematorium Air Purification System (CAPS)</strong> is a cutting-edge, multi-stage
+                        filtration and
+                        emission control solution designed to drastically reduce the environmental footprint of
+                        traditional cremation practices.Whether in open pyres or electric/diesel-based crematoriums,
+                        CAPS captures and neutralizes harmful pollutants — including Particulate Matter (PM), Sulphur
+                        Oxides (SOx), Nitrogen Oxides (NOx), Carbon Monoxide (CO), and Carbon Dioxide (CO₂) — ensuring
+                        that every farewell contributes to a cleaner sky, a greener city, and a better tomorrow.
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -589,9 +600,9 @@
         .custom-img-size {
             width: 400px;
             height: auto;
-            border-radius:10px;
+            border-radius: 10px;
         }
-        
+
         .client-marquee-wrap {
             overflow: hidden;
         }
