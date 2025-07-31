@@ -675,6 +675,11 @@ ol ul {
   padding: 60px 0;
 }
 
+.sectionFont {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 440;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gap {
     padding: 80px 0;
