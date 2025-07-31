@@ -219,7 +219,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" style="display:flex;align-items: center;justify-content: center;gap: 44px;">
                 <!-- Image 1 -->
                 <div class="col-md-3 col-6 mb-4">
                     <a href="assets/pdfs/file1.pdf" target="_blank">
@@ -234,19 +234,6 @@
                     </a>
                 </div>
 
-                <!-- Image 3 -->
-                <div class="col-md-3 col-6 mb-4">
-                    <a href="assets/pdfs/file3.pdf" target="_blank">
-                        <img src="assets/images/certificate.jpg" class="img-fluid rounded shadow-sm" alt="PDF 3">
-                    </a>
-                </div>
-
-                <!-- Image 4 -->
-                <div class="col-md-3 col-6 mb-4">
-                    <a href="assets/pdfs/file4.pdf" target="_blank">
-                        <img src="assets/images/certificate.jpg" class="img-fluid rounded shadow-sm" alt="PDF 4">
-                    </a>
-                </div>
             </div>
         </div>
     </section>
