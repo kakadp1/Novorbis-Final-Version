@@ -13,13 +13,13 @@
         }
 
         body {
-            font-family: "Times New Roman", serif;
+            /* font-family: "Times New Roman", serif;
             background: #f5f5f5;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            padding: 20px;
+            /* min-height: 100vh; */
+            /* padding: 20px; */ 
         }
 
         .certificate-container {
@@ -259,7 +259,7 @@
 <body>
     <!-- Single certificate end -->
     <!-- first certificate  -->
-    <a href="assets\images\Pdf\Novorbis-Type-Approval-125-250.pdf" target="_blank">
+    <a href="assets\images\Pdf\Novorbis-Type-Approval-125-250.pdf">
         <div class="certificates-grid" style="margin-top: 50px;">
             <div class="certificate-wrapper">
                 <div class="certificate-container">
@@ -284,7 +284,7 @@
             </div>
     </a>
     <!-- second certificate -->
-    <a href="assets\images\Pdf\Novorbis Type Approval 500.pdf" target="_blank">
+    <a href="assets\images\Pdf\Novorbis Type Approval 500.pdf">
         <div class="certificate-wrapper">
             <div class="certificate-container">
                 <div class="outer-gold-border">
