@@ -140,6 +140,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <!-- row -->
                 <div class="row g-5 justify-content-center py-3">
                     <div class="col-lg-4 col-xl-3 col-md-6">
