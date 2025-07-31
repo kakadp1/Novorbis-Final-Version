@@ -117,7 +117,7 @@
                             <div class="pages-footer">
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <a href="about.php">
                                             <i class="fa-regular fa-chevron-right"></i>
                                             <p>About</p>
                                         </a>
@@ -129,19 +129,19 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="media.php">
                                             <i class="fa-regular fa-chevron-right"></i>
                                             <p>Media</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="regulations.php">
                                             <i class="fa-regular fa-chevron-right"></i>
                                             <p>Regulations</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="contact.php">
                                             <i class="fa-regular fa-chevron-right"></i>
                                             <p>Contact</p>
                                         </a>
@@ -293,5 +293,3 @@
 
 <div id="anywhere-home" class="">
 </div>
-
-
