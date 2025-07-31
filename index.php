@@ -214,7 +214,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <!-- single cpounter up area start -->
                         <div class="single-counter-up-start-solari">
-                            <div class="bg-text">1000</div>
+                            <div class="bg-text">1200</div>
                             <div class="main-content">
                                 <h2 class="title"><span class="counter animated">1200</span>+</h2>
                                 <p>Tonnes Pollution Reduced</p>
