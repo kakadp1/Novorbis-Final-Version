@@ -15317,11 +15317,11 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
 /* Nav bar position to left */
 .navBarPosition {
-    position: relative;
-    left: 352px;
+  position: relative;
+  left: 352px;
 }
 
-.individualPadding{
+.individualPadding {
   padding-right: 25px;
 }
 
@@ -32005,53 +32005,60 @@ edit .quantity-edit button {
 }
 
 .ceo-quote-container {
-            display: flex;
-            align-items: center;
-            background: #f4faf6;
-            border-radius: 18px;
-            box-shadow: 0 2px 24px rgba(30,90,70,0.04);
-            padding: 64px 70px;
-            /* max-width: 800px; */
-            margin: 40px auto;
-            font-family: 'Segoe UI', Arial, sans-serif;
-        }
-        .ceo-photo {
-            width: 120px;
-            height: 120px;
-            border-radius: 60px;
-            object-fit: cover;
-            border: 4px solid #e0ece6;
-            margin-right: 36px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-        }
-        .ceo-quote-text {
-            flex: 1;
-        }
-        .ceo-quote {
-            font-size: 2.20rem;
-            color: #234d3c;
-            font-style: italic;
-            margin-bottom: 16px;
-            line-height: 1.6;
-        }
-        .ceo-name {
-            font-weight: 600;
-            color: #258152;
-            font-size: 1.8rem;
-            margin-bottom: 2px;
-        }
-        .ceo-title {
-            font-size: 1.4rem;
-            color: #537D67;
-        }
-        @media (max-width: 600px) {
-            .ceo-quote-container {
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 22px 15px;
-            }
-            .ceo-photo {
-                margin-right: 0;
-                margin-bottom: 18px;
-            }
-        }
+  display: flex;
+  align-items: center;
+  background: #f4faf6;
+  border-radius: 18px;
+  box-shadow: 0 2px 24px rgba(30, 90, 70, 0.04);
+  padding: 64px 70px;
+  /* max-width: 800px; */
+  margin: 40px auto;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.ceo-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  object-fit: cover;
+  border: 4px solid #e0ece6;
+  margin-right: 36px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.ceo-quote-text {
+  flex: 1;
+}
+
+.ceo-quote {
+  font-size: 2.20rem;
+  color: #234d3c;
+  font-style: italic;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.ceo-name {
+  font-weight: 600;
+  color: #258152;
+  font-size: 1.8rem;
+  margin-bottom: 2px;
+}
+
+.ceo-title {
+  font-size: 1.4rem;
+  color: #537D67;
+}
+
+@media (max-width: 600px) {
+  .ceo-quote-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 15px;
+  }
+
+  .ceo-photo {
+    margin-right: 0;
+    margin-bottom: 18px;
+  }
+}
