@@ -53,10 +53,10 @@
             <!-- SECTION 1: Intro -->
             <div class="row align-items-center mb-5">
                 <div class="col-md-6">
-                    <h2 class="text-success  fw-bold mb-3" style="font-size: 4.2rem;">Turning Emissions into Impact</h2>
+                    <h2 class="text-success sectionFont fw-bold mb-3" style="font-size: 4.2rem;">Turning Emissions into Impact</h2>
                     <!-- <h2 class="text-success fw-bold mb-3">into Impact </h2> -->
 
-                    <p class=" fs-5">
+                    <p class="title sectionFont" style="font-size: 15px;">
                         <strong>At Novorbis Itus, we are engineering a sustainable future — the Viksit Bharat we all
                             aspire to
                             build.</strong>
@@ -86,10 +86,10 @@
                         class="img-fluid custom-img-size d-block mx-auto">
                 </div>
                 <div class="col-md-6">
-                    <h6 class="text-uppercase  fw-semibold">Our Offerings</h6>
-                    <h3 class="text-success fw-bold mb-3">The Future of Diesel Emission Control-Certified by ARAI,
+                    <h6 class="text-uppercase fw-semibold">Our Offerings</h6>
+                    <h3 class="text-success sectionFont fw-bold mb-3">The Future of Diesel Emission Control-Certified by ARAI,
                         Industry Tested. </h3>
-                    <p class="title">
+                    <p class="sectionFont title">
                         At <strong>Novorbis Itus</strong>, we are reshaping how India manages diesel emissions. Our
                         <strong>Filter-less Retrofit
                             Emission Control Devices (RECDs)</strong> are <strong>ARAI-certified and field-tested across
@@ -104,8 +104,8 @@
 
                 <div class="col-md-6">
                     <!-- <h6 class="text-uppercase  fw-semibold">Our CAPS</h6> -->
-                    <h3 class="text-success fw-bold mb-3"> A Cleaner Goodbye. A Greener Future.</h3>
-                    <p class="title">
+                    <h3 class="text-success sectionFont fw-bold mb-3"> A Cleaner Goodbye. A Greener Future.</h3>
+                    <p class="sectionFont title">
                         Our <strong>Crematorium Air Purification System (CAPS)</strong> is a cutting-edge, multi-stage
                         filtration and
                         emission control solution designed to drastically reduce the environmental footprint of
@@ -130,15 +130,16 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-5" style="width:1000px">
                     <div class="section__title">
-                        <span class="skew-up" style="font-size:3.2rem; font-weight: 700 !important;">Join Our
+                        <span class="sectionFont skew-up" style="font-size:3.2rem; font-weight: 700 !important;">Join Our
                             Movement</span>
-                        <div class="title skew-up mb--60">
+                        <div class="sectionFont title skew-up mb--60">
                             At Novorbis Itus, we’re not just building devices
                             <div> we're engineering a transition toward cleaner air, healthier cities, and responsible
                                 infrastructure.</div>
                             <div>Let’s build a Viksit Bharat where every system breathes better.</div>
                         </div>
                     </div>
+                </div>
                 </div>
                 <!-- row -->
                 <div class="row g-5 justify-content-center py-3">
