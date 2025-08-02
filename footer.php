@@ -317,9 +317,9 @@
     .pages-footer ul li.has-dropdown .submenu {
         display: none;
         position: absolute;
-        left: 100%;
+        left: 0%;
         top: 0;
-        min-width: 180px;
+        min-width: 211px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         z-index: 10;
         padding-left: 0;
