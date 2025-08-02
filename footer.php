@@ -122,11 +122,25 @@
                                             <p>About</p>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="has-dropdown">
                                         <a href="#">
                                             <i class="fa-regular fa-chevron-right"></i>
                                             <p>Products</p>
                                         </a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="carbon-free-recds.php">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    <p>Carbon Free RECDs</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="carbon-free-caps.php">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    <p>Carbon Free CAPs</p>
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="media.php">
@@ -293,3 +307,39 @@
 
 <div id="anywhere-home" class="">
 </div>
+<!-- for dropdown open some option when someone hover on it -->
+<style>
+    /* Show submenu on hover for footer quick links */
+    .pages-footer ul li.has-dropdown {
+        position: relative;
+    }
+
+    .pages-footer ul li.has-dropdown .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        min-width: 180px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        z-index: 10;
+        padding-left: 0;
+        background-color: black;
+        border-radius: 10px
+    }
+
+    .pages-footer ul li.has-dropdown:hover .submenu {
+        display: block;
+    }
+
+    .pages-footer ul li.has-dropdown .submenu li {
+        display: block;
+        padding: 8px 16px;
+    }
+
+    .pages-footer ul li.has-dropdown .submenu a {
+        color: #222;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+</style>
