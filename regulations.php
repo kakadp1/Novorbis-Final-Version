@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="con-tent-main">
-                        <div class="wrapper">
+                        <div class="wrapper" style="margin-top:-40px">
                             <div class="title skew-up">
                                 <a href="#">Regulations</a>
                             </div>

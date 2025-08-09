@@ -72,7 +72,6 @@
     <style>
         .header-nav .active>a.nav-link,
         .header-nav .submenu .active>a {
-            color: #FFFFFF !important;
             font-weight: bold;
             text-decoration: underline !important;
             text-underline-offset: 4px;
