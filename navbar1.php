@@ -39,9 +39,10 @@
                         <li class="<?= ($currentPage == 'regulations.php') ? 'active' : '' ?>">
                             <a class="nav-link individualPadding" href="regulations.php">Regulations</a>
                         </li>
-                        <li class="<?= ($currentPage == 'media.php') ? 'active' : '' ?>">
+                        <!-- will make it active once it good to go -->
+                        <!-- <li class="<?= ($currentPage == 'media.php') ? 'active' : '' ?>">
                             <a class="nav-link individualPadding" href="media.php">Media</a>
-                        </li>
+                        </li> -->
                         <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>">
                             <a class="nav-link individualPadding" href="contact.php">Contact</a>
                         </li>

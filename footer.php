@@ -26,9 +26,10 @@
                         <li><a href="carbon-free-caps.php">Carbon Free CAPs</a></li>
                     </ul>
                 </li>
-                <li>
+                <!-- will activate it once it good to go -->
+                <!-- <li>
                     <a class="nav-link" href="media.php">Media</a>
-                </li>
+                </li> -->
                 <li>
                     <a class="nav-link" href="regulations.php">Regulations</a>
                 </li>

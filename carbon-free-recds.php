@@ -30,7 +30,7 @@
         }
 
         img {
-            max-width: 100%;
+            max-width: 50%;
             border-radius: 8px;
         }
 
@@ -88,12 +88,14 @@
         /* ===== BENEFITS ===== */
         .benefits {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            grid-template-columns:1fr 1fr;
             gap: 18px;
+            height:300px
         }
 
         .benefit-card {
             background: white;
+            height:200px
             padding: 18px;
             border-radius: 8px;
             text-align: center;
@@ -181,7 +183,7 @@
 
     <!-- ABOUT -->
     <section class="flex-section" data-aos="fade-right">
-        <img src="https://images.unsplash.com/photo-1597002189350-657ef3a683c3" alt="RECD Device">
+        <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a" alt="RECD Device">
         <div class="text">
             <h2>About RECD</h2>
             <p>The Retrofit Emission Control Device (RECD) is an advanced <strong>filterless</strong> catalytic system
@@ -200,22 +202,22 @@
         <h2>Key Benefits</h2>
         <div class="benefits">
             <div class="benefit-card" data-aos="zoom-in">
-                <img src="https://images.unsplash.com/photo-1581092334501-e605cbaea57a" alt="Filterless Technology">
+                <!-- <img src="https://images.unsplash.com/photo-1581092334501-e605cbaea57a" alt="Filterless Technology"> -->
                 <h3>Filterless Operation</h3>
                 <p>Eliminates the need for filter cleaning or replacement, reducing lifecycle costs.</p>
             </div>
             <div class="benefit-card" data-aos="zoom-in" data-aos-delay="100">
-                <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a" alt="Emission Reduction">
+                <!-- <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a" alt="Emission Reduction"> -->
                 <h3>90% PM Reduction</h3>
                 <p>Proven to reduce particulate matter emissions significantly, improving local air quality.</p>
             </div>
             <div class="benefit-card" data-aos="zoom-in" data-aos-delay="200">
-                <img src="https://images.unsplash.com/photo-1581093588401-22b9b6b934c8" alt="Certification">
+                <!-- <img src="https://images.unsplash.com/photo-1581093588401-22b9b6b934c8" alt="Certification"> -->
                 <h3>ARAI Certified</h3>
                 <p>Compliance with Indian regulatory norms, tested for performance and safety.</p>
             </div>
             <div class="benefit-card" data-aos="zoom-in" data-aos-delay="300">
-                <img src="https://images.unsplash.com/photo-1603297623367-26ffb537ef9a" alt="Fuel Efficiency">
+                <!-- <img src="https://images.unsplash.com/photo-1603297623367-26ffb537ef9a" alt="Fuel Efficiency"> -->
                 <h3>Fuel-Efficient Design</h3>
                 <p>Maintains engine performance with minimal back pressure impact.</p>
             </div>

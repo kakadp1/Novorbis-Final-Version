@@ -1,7 +1,7 @@
 <div class="rts-header header-style-nine">
 
 
-    <header class="header-four header--sticky">
+    <header class="header-four header--sticky" style="position:fixed">
         <div class="header-left">
             <a href="index.php">
                 <img src="assets/images/logo2.png" alt="Novorbis Itus Pvt Ltd Logo" class="margin-top: 5px;">
@@ -38,9 +38,10 @@
                         <li class="<?= ($currentPage == 'regulations.php') ? 'active' : '' ?>">
                             <a class="nav-link individualPadding" href="regulations.php">Regulations</a>
                         </li>
-                        <li class="<?= ($currentPage == 'media.php') ? 'active' : '' ?>">
+                        <!-- will make it active once it good to go -->
+                        <!-- <li class="<?= ($currentPage == 'media.php') ? 'active' : '' ?>">
                             <a class="nav-link individualPadding" href="media.php">Media</a>
-                        </li>
+                        </li> -->
                         <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>">
                             <a class="nav-link individualPadding" href="contact.php">Contact</a>
                         </li>
