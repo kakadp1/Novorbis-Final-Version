@@ -1,4 +1,3 @@
-<!-- header area -->
 <div class="rts-header header-style-nine">
 
 
