@@ -7,6 +7,7 @@
     <title>RECD - Retrofit Emission Control Device</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="assets/images/fav.png">
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <style>

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crematorium Air Purification System (CAPS)</title>
+    <link rel="icon" type="image/png" href="assets/images/fav.png">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- Custom css -->
