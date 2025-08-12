@@ -71,7 +71,9 @@
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="text-center">
-                        <img src="assets/images/media/ministry-env.jpg" class="card-img-top" alt="...">
+                        <a href="assets\images\Pdf\Year-2019_MoEFCC_NCAP_DG-Sets_Summary.pdf">
+                            <img src="assets/images/media/ministry-env.jpg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <h6 class="card-title">Ministry of Environment, Forest & Climate Change</h6>
                         </div>
@@ -87,7 +89,10 @@
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="text-center">
-                        <img src="assets/images/media/caqm.jpg" class="card-img-top" alt="...">
+                        <a
+                            href="assets\images\Pdf\Year-2023_CAQM-Direction-No-77-dt.-06.10.2023-Revised-Schedule-of-Graded-Response-Action-Plan-GRAP-for-NCR-1_compressed.pdf">
+                            <img src="assets/images/media/caqm.jpg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <h6 class="card-title">Commission for Air Quality Management</h6>
                         </div>
@@ -114,7 +119,8 @@
                 <div class="col-md-2 col-6">
                     <button type="button" data-bs-toggle="modal" data-bs-target="#Andhra">
                         <div class="text-center p-4">
-                            <img src="assets/images/media/1.webp" class="card-img-top" alt="...">
+                            <a href="assets\images\Pdf\state\Arunachal Pradesh.pdf"><img
+                                    src="assets/images/media/1.webp" class="card-img-top" alt="..."></a>
                             <div class="card-body">
                                 <h6 class="card-title">Andhra Pradesh</h6>
                             </div>
@@ -123,7 +129,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/2.webp" class="card-img-top" alt="...">
+                        <a href="assets\images\Pdf\state\DELHI.pdf">
+                            <img src="assets/images/media/2.webp" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h6 class="card-title">Delhi</h6>
                         </div>
@@ -131,7 +138,9 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/3.webp" class="card-img-top" alt="Goa">
+
+                        <a href="assets\images\Pdf\state\Goa.pdf"><img src="assets/images/media/3.webp"
+                                class="card-img-top" alt="Goa"></a>
                         <div class="card-body">
                             <h6 class="card-title">Goa</h6>
                         </div>
@@ -147,7 +156,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/5.webp" class="card-img-top" alt="Haryana">
+                        <a href="assets\images\Pdf\state\Gujrat.pdf"> <img src="assets/images/media/5.webp"
+                                class="card-img-top" alt="Haryana"></a>
                         <div class="card-body">
                             <h6 class="card-title">Haryana</h6>
                         </div>
@@ -155,7 +165,9 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/6.webp" class="card-img-top" alt="Jammu & Kashmir">
+                        </a>
+                        <a href="assets\images\Pdf\state\J&k.pdf"> <img src="assets/images/media/6.webp"
+                                class="card-img-top" alt="Jammu & Kashmir"></a>
                         <div class="card-body">
                             <h6 class="card-title">Jammu & Kashmir</h6>
                         </div>
@@ -163,7 +175,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/7.webp" class="card-img-top" alt="Karnataka">
+                        <a href="assets\images\Pdf\state\Karnataka.pdf"><img src="assets/images/media/7.webp"
+                                class="card-img-top" alt="Karnataka"></a>
                         <div class="card-body">
                             <h6 class="card-title">Karnataka</h6>
                         </div>
@@ -171,7 +184,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/8.webp" class="card-img-top" alt="Kerala">
+                        <a href="assets\images\Pdf\state\Kerala.pdf"> <img src="assets/images/media/8.webp"
+                                class="card-img-top" alt="Kerala"></a>
                         <div class="card-body">
                             <h6 class="card-title">Kerala</h6>
                         </div>
@@ -179,7 +193,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/9.webp" class="card-img-top" alt="Maharashtra">
+                        <a href="assets\images\Pdf\state\Maharashtra.pdf"> <img src="assets/images/media/9.webp"
+                                class="card-img-top" alt="Maharashtra"></a>
                         <div class="card-body">
                             <h6 class="card-title">Maharashtra</h6>
                         </div>
@@ -187,7 +202,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/10.webp" class="card-img-top" alt="Odisha">
+                        <a href="assets\images\Pdf\state\Odisha.pdf"> <img src="assets/images/media/10.webp"
+                                class="card-img-top" alt="Odisha"></a>
                         <div class="card-body">
                             <h6 class="card-title">Odisha</h6>
                         </div>
@@ -195,7 +211,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/11.webp" class="card-img-top" alt="Tamil Nadu">
+                        <a href="assets\images\Pdf\state\Tamil Nadu.pdf"> <img src="assets/images/media/11.webp"
+                                class="card-img-top" alt="Tamil Nadu"></a>
                         <div class="card-body">
                             <h6 class="card-title">Tamil Nadu</h6>
                         </div>

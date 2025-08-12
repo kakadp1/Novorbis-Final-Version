@@ -19,7 +19,7 @@
             justify-content: center;
             align-items: center;
             /* min-height: 100vh; */
-            /* padding: 20px; */ 
+            /* padding: 20px; */
         }
 
         .certificate-container {
@@ -275,7 +275,7 @@
                                 <div class="inner-decorative-border"></div>
 
                                 <div class="certificate-content">
-                                    <div class="certificate-title">Certificate</div>
+                                    <div class="certificate-title">Approval 500</div>
                                 </div>
                             </div>
                         </div>
@@ -299,7 +299,7 @@
                             <div class="inner-decorative-border"></div>
 
                             <div class="certificate-content">
-                                <div class="certificate-title">Certificate</div>
+                                <div class="certificate-title">Approval 125-250</div>
                             </div>
                         </div>
                     </div>
