@@ -41,8 +41,9 @@
 
         /* ===== HERO ===== */
         .hero {
-            background: url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09') center/cover no-repeat;
+            background: url('assets/images/recd/Dynamic fashion,500 kva.png');
             color: white;
+            height: 500px;
             text-align: center;
             padding: 100px 8%;
             position: relative;
@@ -165,7 +166,7 @@
 
     <!-- ABOUT -->
     <section class="flex-section" data-aos="fade-right">
-        <img src="" alt="RECD Device">
+        <img src="assets/images/recd/recdDevice.jpg" style="height:400px;width:50%" alt="RECD Device">
         <div class="text">
             <h2>About RECD</h2>
             <p>RECD (Retrofit Emission Control Device) is an advanced system that reduces harmful emissions from diesel

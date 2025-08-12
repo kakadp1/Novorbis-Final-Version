@@ -41,8 +41,9 @@
 
         /* ===== HERO ===== */
         .hero {
-            background: url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09') center/cover no-repeat;
+            background-image: url('assets/images/caps/7360.webp');
             color: white;
+            height: 500px;
             text-align: center;
             padding: 100px 8%;
             position: relative;
@@ -164,7 +165,7 @@
 
     <!-- ABOUT -->
     <section class="flex-section" data-aos="fade-right">
-        <img src="" alt="CAPS Device">
+        <img src="assets\images\caps\caps.jpg" style="height:400px;width:50%" alt="CAPS Device">
         <div class="text">
             <h2>About CAPS</h2>
             <p>CarbonFree CAPS is an advanced Crematorium Air Purification System that captures and removes harmful
