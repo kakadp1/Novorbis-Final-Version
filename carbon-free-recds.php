@@ -30,7 +30,7 @@
         }
 
         img {
-            max-width: 50%;
+            max-width: 100%;
             border-radius: 8px;
         }
 
@@ -41,7 +41,7 @@
         /* ===== HERO ===== */
         .hero {
             background: url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09') center/cover no-repeat;
-            color: white !important;
+            color: white;
             text-align: center;
             padding: 100px 8%;
             position: relative;
@@ -57,7 +57,7 @@
         .hero-content {
             position: relative;
             z-index: 2;
-            color: white !important
+            color: white;
         }
 
         .hero h1 {
@@ -85,17 +85,15 @@
             flex: 1 1 350px;
         }
 
-        /* ===== BENEFITS ===== */
+        /* ===== BENEFITS / FEATURES ===== */
         .benefits {
             display: grid;
-            grid-template-columns:1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 18px;
-            height:300px
         }
 
         .benefit-card {
             background: white;
-            height:200px
             padding: 18px;
             border-radius: 8px;
             text-align: center;
@@ -128,23 +126,6 @@
             background: #f0f8ff;
         }
 
-        /* ===== SPECS ===== */
-        .specs table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-        }
-
-        .specs th,
-        .specs td {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .specs tr:hover {
-            background: #f0f0f0;
-        }
-
         /* ===== CTA ===== */
         .cta {
             text-align: center;
@@ -171,123 +152,123 @@
 
 <body>
     <?php include "navbar.php" ?>
+
     <!-- HERO -->
     <section class="hero">
-        <div class="hero-content" style="color: white !important" data-aos="fade-up">
-            <h1 style="color:white">Retrofit Emission Control Device (RECD)</h1>
-            <p style="color:white">ARAI-certified filterless technology that delivers unmatched emission reduction
-                without clogging or
-                costly maintenance.</p>
+        <div class="hero-content" data-aos="fade-up">
+            <h1 style="color:white">RECD-Retrofit Emission Control Device</h1>
+            <p style="color:white">Advanced Emission Control for a Healthier Tomorrow
+            </p>
         </div>
     </section>
 
     <!-- ABOUT -->
     <section class="flex-section" data-aos="fade-right">
-        <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a" alt="RECD Device">
+        <img src="" alt="RECD Device">
         <div class="text">
             <h2>About RECD</h2>
-            <p>The Retrofit Emission Control Device (RECD) is an advanced <strong>filterless</strong> catalytic system
-                developed to tackle urban air pollution from diesel-powered vehicles and generators. Unlike traditional
-                DPFs, our design ensures there is no risk of filter clogging, eliminating costly downtime and
-                replacements.</p>
-            <p>Tested and approved by the <strong>Automotive Research Association of India (ARAI)</strong>, it
-                guarantees compliance with Bharat Stage VI norms while delivering superior performance across varying
-                load conditions. The RECD is engineered to fit seamlessly into existing exhaust systems with minimal
-                modification.</p>
+            <p>RECD (Retrofit Emission Control Device) is an advanced system that reduces harmful emissions from diesel
+                generators by capturing particulate matter (PM2.5, PM10), aerosols, and toxic pollutants before they are
+                released into the air.
+            </p>
+            <p>
+                Our CarbonFree RECD reduces emissions by capturing PM, aerosols, and pollutants using electrostatic
+                precipitation and water-based scrubbing. It retrofits existing diesel engines to curb air pollution
+                effectively
+            </p>
+            <p>Our CarbonFree RECD, India’s first truly filter-less solution, combines electrostatic precipitation and
+                water-based scrubbing to capture PM, aerosols, and pollutants with high efficiency, zero maintenance,
+                and easy installation on existing diesel engines effectively curbing air pollution at the source
+            </p>
         </div>
     </section>
 
-    <!-- BENEFITS -->
-    <section data-aos="fade-up">
-        <h2>Key Benefits</h2>
+    <!-- KEY BENEFITS & FEATURES -->
+    <section data-aos="fade-up" style="margin-top: 50px;">
+        <h3>Key Benefits & Features</h3>
         <div class="benefits">
-            <div class="benefit-card" data-aos="zoom-in">
-                <!-- <img src="https://images.unsplash.com/photo-1581092334501-e605cbaea57a" alt="Filterless Technology"> -->
-                <h3>Filterless Operation</h3>
-                <p>Eliminates the need for filter cleaning or replacement, reducing lifecycle costs.</p>
+
+            <div class="benefit-card">
+                <!-- <h5>ARAI Approved</h5> -->
+                <p>ARAI Approved for CPCB I & CPCB II gensets.
+                </p>
             </div>
-            <div class="benefit-card" data-aos="zoom-in" data-aos-delay="100">
-                <!-- <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a" alt="Emission Reduction"> -->
-                <h3>90% PM Reduction</h3>
-                <p>Proven to reduce particulate matter emissions significantly, improving local air quality.</p>
+
+            <div class="benefit-card">
+                <p>Highest PM capture efficiency in the country 92%</p>
+                <!-- <p> 92%</p> -->
             </div>
-            <div class="benefit-card" data-aos="zoom-in" data-aos-delay="200">
-                <!-- <img src="https://images.unsplash.com/photo-1581093588401-22b9b6b934c8" alt="Certification"> -->
-                <h3>ARAI Certified</h3>
-                <p>Compliance with Indian regulatory norms, tested for performance and safety.</p>
+            <div class="benefit-card">
+                <!-- <h5>Lowest back pressure </h5> -->
+                <p> Lowest back pressure of any RECD, without site modifications
+                </p>
             </div>
-            <div class="benefit-card" data-aos="zoom-in" data-aos-delay="300">
-                <!-- <img src="https://images.unsplash.com/photo-1603297623367-26ffb537ef9a" alt="Fuel Efficiency"> -->
-                <h3>Fuel-Efficient Design</h3>
-                <p>Maintains engine performance with minimal back pressure impact.</p>
+
+            <div class="benefit-card">
+                <!-- <h5></h5> -->
+                <p>No filter required-zero replacement cost
+                </p>
             </div>
+            <div class="benefit-card">
+                <!-- <h5> </h5> -->
+                <p>Self-Cleaning-automated water flushing, no manual work
+                </p>
+            </div>
+            <div class="benefit-card">
+                <!-- <h5>Seamless retrofitting </h5> -->
+                <p>Seamless retrofitting-ready-to-use device, easy to install</p>
+            </div>
+            <div class="benefit-card">
+                <!-- <h5>Zero back pressure </h5> -->
+                <p>Zero back pressure-no impact on engine performance</p>
+            </div>
+            <div class="benefit-card">
+                <!-- <h5>Zero back pressure </h5> -->
+                <p>Captures fine dust, heavy metals, acid mist
+                </p>
+            </div>
+
         </div>
     </section>
 
     <!-- HOW IT WORKS -->
     <section data-aos="fade-left">
-        <h2>How It Works</h2>
+        <h3>How It Works</h3>
         <div class="steps">
-            <div class="step" data-aos="flip-left">
-                <h3>Step 1: Exhaust Entry</h3>
-                <p>Diesel exhaust enters the RECD chamber, directed through a series of flow channels.</p>
+            <div class="step">
+                <h4>Gas Inlet </h4>
+                <p>Collects exhausExhaust gas enters directly from the generator.
+                </p>
             </div>
-            <div class="step" data-aos="flip-left" data-aos-delay="100">
-                <h3>Step 2: Catalytic Conversion</h3>
-                <p>Pollutants are broken down via oxidation and reduction on catalytic surfaces.</p>
+            <div class="step">
+                <h4>Particle Charging </h4>
+                <p>A corona discharge charges fine particles.
+                </p>
             </div>
-            <div class="step" data-aos="flip-left" data-aos-delay="200">
-                <h3>Step 3: Clean Emission</h3>
-                <p>The treated exhaust exits with reduced PM, HC, and CO emissions.</p>
+            <div class="step">
+                <h4>Electrostatic Collection </h4>
+                <p>Charged particles stick to collection plates.
+                </p>
+            </div>
+            <div class="step">
+                <h4>Automatic Cleaning </h4>
+                <p>Water flush removes trapped pollutants.
+                </p>
+            </div>
+            <div class="step">
+                <h4>Clean Gas Exit </h4>
+                <p>Purified air is released into the atmosphere.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- TECH SPECS -->
-    <section class="specs" data-aos="fade-up">
-        <h2>Technical Specifications</h2>
-        <table>
-            <tr>
-                <th>Parameter</th>
-                <th>Specification</th>
-            </tr>
-            <tr>
-                <td>Technology</td>
-                <td>Filterless Catalytic System</td>
-            </tr>
-            <tr>
-                <td>Certification</td>
-                <td>ARAI Approved</td>
-            </tr>
-            <tr>
-                <td>PM Reduction</td>
-                <td>≥ 90%</td>
-            </tr>
-            <tr>
-                <td>Operating Temp</td>
-                <td>200°C – 600°C</td>
-            </tr>
-            <tr>
-                <td>Material</td>
-                <td>High-grade stainless steel</td>
-            </tr>
-            <tr>
-                <td>Maintenance</td>
-                <td>Minimal — no filter replacement</td>
-            </tr>
-        </table>
-    </section>
-
-    <!-- CTA -->
-
     <?php include "footer.php" ?>
+
     <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
+        AOS.init({ duration: 1000, once: true });
     </script>
 
 </body>

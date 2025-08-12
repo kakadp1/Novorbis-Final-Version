@@ -3,199 +3,270 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="assets/images/fav.png">
-    <title>Contact us - Novorbis Itus Pvt Ltd | Pune, Maharashtra</title>
-    <meta name="robots" content="noindex, nofollow">
-    <!-- fontawesome css -->
-    <link rel="stylesheet" href="assets/css/plugins/fontawesome-6.css">
-    <!-- fontawesome css -->
-    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
-    <link rel="stylesheet" href="assets/css/plugins/unicons.css">
-    <link rel="stylesheet" href="assets/css/plugins/metismenu.css">
-    <link rel="stylesheet" href="assets/css/vendor/animate.css">
-    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <title>Crematorium Air Purification System (CAPS)</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* ===== GLOBAL ===== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0 0 10px;
+        }
+
+        section {
+            padding: 50px 8%;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 8%;
+            position: relative;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.55);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 8px;
+        }
+
+        /* ===== FLEX SECTIONS ===== */
+        .flex-section {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .flex-section img {
+            flex: 1 1 350px;
+        }
+
+        .flex-section .text {
+            flex: 1 1 350px;
+        }
+
+        /* ===== BENEFITS / FEATURES ===== */
+        .benefits {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 18px;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 18px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+        }
+
+        /* ===== HOW IT WORKS ===== */
+        .steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .step {
+            flex: 1 1 230px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+            transition: background 0.3s;
+        }
+
+        .step:hover {
+            background: #f0f8ff;
+        }
+
+        /* ===== CTA ===== */
+        .cta {
+            text-align: center;
+            background: linear-gradient(90deg, #004e92, #000428);
+            color: white;
+            padding: 40px 8%;
+        }
+
+        .cta button {
+            background: #ff9800;
+            border: none;
+            padding: 14px 26px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .cta button:hover {
+            background: #e68900;
+        }
+    </style>
 </head>
 
 <body>
     <?php include "navbar.php" ?>
 
-    <div class="rts-bread-crumb-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="con-tent-main">
-                        <div class="wrapper">
-
-                            <div class="slug skew-up">
-                                <a class="text-dark" href="index.php">HOME /</a>
-                                <a class="active text-dark" href="index.php">CarbonFree CAPs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 style="color:white">CAPS-Crematorium Air Purification System</h1>
+            <p style="color:white">Clean Cremations. Cleaner Air. Healthier Cities. / Breathe Easier with CAPS</p>
         </div>
-    </div>
+    </section>
 
-    <div class="rts-service-details-area py-5">
-        <div class="container">
-            <!-- Section 1: Image Left, Text Right -->
-            <div class="row align-items-center mb-5 flex-wrap">
-                <div class="col-lg-6">
-                    <img src="assets/images/service/recd.jpg" data-aos="zoom-in" class="img-fluid p-image"
-                        alt="CarbonFree CAPs">
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="title title-g">Efficient. Robust. Built for sensitive spaces</h3>
-                    <p class="disc-1">
-                        Crematorium Air Purification System is specially designed to reduce harmful emissions released
-                        during cremations. It targets pollutants like Particulate Matter, VOCs, and toxic gases,
-                        ensuring cleaner air in and around crematoriums. With strong filtration and low maintenance,
-                        CAPS supports environmental care where it’s needed most.
-                    </p>
-                    <!-- <h4 class="title title-g mt-4"> "Hamari Parampara, Hamari Zimmedari"</h4> -->
-                </div>
-            </div>
-
-
-
+    <!-- ABOUT -->
+    <section class="flex-section" data-aos="fade-right">
+        <img src="" alt="CAPS Device">
+        <div class="text">
+            <h2>About CAPS</h2>
+            <p>CarbonFree CAPS is an advanced Crematorium Air Purification System that captures and removes harmful
+                emissions from cremation processes. It ensures compliance with CPCB & EPA standards while protecting
+                public health and the environment.
+            </p>
+            <p>The CarbonFree Crematorium Air Purification System is an advanced emission control solution that
+                effectively reduces pollutants from cremation, ensuring CPCB and EPA compliance while enhancing air
+                quality and public health.
+            </p>
         </div>
-    </div>
+    </section>
 
-
-    <!-- Features -->
-    <div class="rts-installation section__bg rts-section-gap py-5   ">
-        <div class="container py-5">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-5">
-                    <div class="section__title">
-                        <span class="skew-up">Features</span>
-
-                    </div>
-                </div>
+    <!-- KEY BENEFITS & FEATURES -->
+    <section data-aos="fade-up" style="margin-top: 50px;">
+        <h2>Key Benefits & Features</h2>
+        <div class="benefits">
+            <!-- <div class="benefit-card">
+                <h5>Filterless Operation</h5>
+                <p>No need for filter cleaning or replacement, lowering lifecycle costs.</p>
+            </div> -->
+            <div class="benefit-card">
+                <h5>90%+ PM Reduction</h5>
+                <p>Reduces particulate matter emissions significantly for better air quality.</p>
             </div>
-            <!-- row -->
-            <section class="container">
-                <div class="row text-center">
-                    <!-- Feature 1 -->
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="feature-card">
-                            <img src="assets/images/icons/01.png" alt="Filter-less Icon" />
-                            <p>Superior Filtration Efficiency</p>
-                        </div>
-                    </div>
-                    <!-- Feature 2 -->
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="feature-card">
-                            <img src="assets/images/icons/02.png" alt="Long-lasting Icon" />
-                            <p>Zero Secondary Emissions</p>
-                        </div>
-                    </div>
-                    <!-- Feature 3 -->
-                    <div class="col-md-4 col-sm-6 mb-4">
-                        <div class="feature-card">
-                            <img src="assets/images/icons/03.png" alt="Fast regeneration Icon" />
-                            <p>Seamless Retrofitting</p>
-                        </div>
-                    </div>
-                    <!-- Feature 4 -->
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- Features  -->
-
-    <!-- Why Choose Us -->
-    <section class="container py-5">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-5">
-                <div class="section__title">
-                    <span class="skew-up">Why Choose Us</span>
-
-                </div>
+            <!-- <div class="benefit-card">
+                <h5>ARAI Certified</h5>
+                <p>Meets Indian regulatory norms, tested for safety and performance.</p>
+            </div> -->
+            <div class="benefit-card">
+                <h5>Fuel-Efficient Design</h5>
+                <p>Maintains engine performance with minimal back pressure.</p>
             </div>
-        </div>
-        <div class="row text-center">
-            <!-- Feature 1 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="choose-card">
-                    <img src="assets/images/icons/1.png" alt="Unique filter-less" class="choose-icon" />
-                    <p>Unique filter-less purification</p>
-                </div>
+            <!-- <div class="benefit-card">
+                <h4>95% PM2.5 & PM10 Capture</h4>
+                <p>Captures up to 95% of harmful particulate matter, ensuring cleaner emissions.</p>
+            </div> -->
+            <div class="benefit-card">
+                <h5>Removes Hazardous Gases</h5>
+                <p>Eliminates toxic fumes and hazardous gases effectively.</p>
             </div>
-            <!-- Feature 2 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="choose-card">
-                    <img src="assets/images/icons/2.png" alt="Long-lasting product" class="choose-icon" />
-                    <p>Long-lasting product</p>
-                </div>
+            <div class="benefit-card">
+                <h5>Self-Cleaning System</h5>
+                <p>No manual maintenance required, reducing downtime.</p>
             </div>
-            <!-- Feature 3 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="choose-card">
-                    <img src="assets/images/icons/3.png" alt="Fast regeneration" class="choose-icon" />
-                    <p>Fastest regeneration</p>
-                </div>
+            <div class="benefit-card">
+                <h5>Energy Efficient</h5>
+                <p>Low operational cost with optimized energy use.</p>
             </div>
-            <!-- Feature 4 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="choose-card">
-                    <img src="assets/images/icons/4.png" alt="Efficiency" class="choose-icon" />
-                    <p>92.7% efficiency</p>
-                </div>
+            <div class="benefit-card">
+                <h5>20-Year Lifespan</h5>
+                <p>Durable design for long-term, reliable operation.</p>
             </div>
-            <!-- Feature 5 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="choose-card">
-                    <img src="assets/images/icons/5.png" alt="Back pressure" class="choose-icon" />
-                    <p>Zero back pressure</p>
-                </div>
+            <div class="benefit-card">
+                <h5>Compliance Ready</h5>
+                <p>CPCB & EPA certified for legal and safe operation.</p>
             </div>
-            <!-- Feature 6 -->
-            <div class="col-md-4 col-sm-6 mb-4">
-                <div class="choose-card">
-                    <img src="assets/images/icons/6.png" alt="Low carbon" class="choose-icon" />
-                    <p>Low carbon, long life</p>
-                </div>
-            </div>
-            <!-- Feature 7 -->
-            <div class="col-md-4 col-sm-6 mb-4 mx-auto">
-                <div class="choose-card">
-                    <img src="assets/images/icons/7.png" alt="OBD System" class="choose-icon" />
-                    <p>Equipped with OBD (On-Board Diagnostics) system</p>
-                </div>
+            <div class="benefit-card">
+                <h5>Live Pollution Monitoring</h5>
+                <p>Optional real-time monitoring and analysis system.</p>
             </div>
         </div>
     </section>
-    <!-- Why Choose Us -->
+
+    <!-- HOW IT WORKS -->
+    <section data-aos="fade-left">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h4>Gas Capture</h4>
+                <p>Collects exhaust gases from cremation chamber.</p>
+            </div>
+            <div class="step">
+                <h4>Cyclone Separator</h4>
+                <p>Removes large particles before fine filtration.</p>
+            </div>
+            <div class="step">
+                <h4>Dust Vortex System</h4>
+                <p>Enhances separation efficiency.</p>
+            </div>
+            <div class="step">
+                <h4>VapoX Gas Treatment</h4>
+                <p>Removes oils, chemicals, and toxic fumes.</p>
+            </div>
+            <div class="step">
+                <h4>Byproduct Conversion</h4>
+                <p>Converts gases into usable materials like gypsum.</p>
+            </div>
+            <div class="step">
+                <h4>Clean Air Release</h4>
+                <p>Releases purified air into the atmosphere.</p>
+            </div>
+        </div>
+    </section>
+
     <?php include "footer.php" ?>
 
+    <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({ duration: 1000, once: true });
     </script>
-    <script src="assets/js/plugins/jquery.min.js"></script>
-    <script src="assets/js/vendor/jqueryui.js"></script>
-    <script src="assets/js/plugins/counter-up.js"></script>
-    <script src="assets/js/plugins/swiper.js"></script>
-    <script src="assets/js/plugins/metismenu.js"></script>
-    <script src="assets/js/vendor/waypoint.js"></script>
-    <script src="assets/js/vendor/waw.js"></script>
-    <script src="assets/js/plugins/gsap.min.js"></script>
-    <script src="assets/js/plugins/scrolltigger.js"></script>
-    <script src="assets/js/vendor/split-text.js"></script>
-    <script src="assets/js/vendor/contact.form.js"></script>
-    <script src="assets/js/vendor/split-type.js"></script>
-    <script src="assets/js/plugins/jquery-timepicker.js"></script>
-    <script src="assets/js/plugins/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/magnific-popup.min.js"></script>
-    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

@@ -23,7 +23,7 @@
                     <a class="nav-link" href="#">Products</a>
                     <ul class="submenu">
                         <li><a href="carbon-free-recds.php">Carbon Free RECDs</a></li>
-                        <li><a href="carbon-free-caps.php">Carbon Free CAPs</a></li>
+                        <li><a href="carbon-free-caps.php">Carbon Free CAPS</a></li>
                     </ul>
                 </li>
                 <!-- will activate it once it good to go -->
@@ -84,7 +84,7 @@
                                 harmful pollutants right at the
                                 source.
                             </p>
-                            <div class="rts-social-style-one">
+                            <!-- <div class="rts-social-style-one">
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -107,7 +107,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="single-footer-component">
@@ -138,7 +138,7 @@
                                             <li>
                                                 <a href="carbon-free-caps.php">
                                                     <i class="fa-regular fa-chevron-right"></i>
-                                                    <p>Carbon Free CAPs</p>
+                                                    <p>Carbon Free CAPS</p>
                                                 </a>
                                             </li>
                                         </ul>
