@@ -261,25 +261,7 @@
                 </div>
             </div>
         </div>
-        <div class="row pb--20 pt--20 border-top-copyright">
-            <div class="col-lg-12">
-                <!-- copyright area start -->
-                <div class="copyright-area-two">
-                    <div class="left ">
-                        <p class="text-light small">Copyright 2025. All Rights Reserved. Design & Developed By Web Link
-                            Services Pvt. Ltd.
-                        </p>
-                    </div>
-                    <!-- <div class="right">
-                        <ul>
-                            <li><a href="#">Terms & conditions</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                        </ul>
-                    </div> -->
-                </div>
-                <!-- copyright area end -->
-            </div>
-        </div>
+        
     </div>
 </div>
 
