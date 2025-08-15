@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <?php include "navbar1.php" ?>
+    <?php include "navbar_index.html" ?>
 
     <!-- Banner -->
     <div class="rts-banner-six-area bg-image-solution banner-six-height">

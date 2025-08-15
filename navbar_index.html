@@ -4,51 +4,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar</title>
+    <title>Responsive Navbar with Active State</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="navbar_style.css">
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        .header {
+            background-color: rgb(0 0 0 / 99%);
+            opacity: 0.9;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navbar */
+        .navbar {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Logo */
+        .header-left img {
+            height: 50px;
+        }
+
+        /* Menu */
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            padding: 0.5rem 0.75rem;
+            display: block;
+            transition: color 0.3s, border-color 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .nav-link:hover {
+            color: #7af780;
+        }
+
+        /* Active State */
+        .nav-link.active {
+            color: #5dc262;
+            /* border-bottom: 1px solid #fdfdfd; */
+            line-height: 8px;
+        }
+
+        /* Submenu */
+        .submenu {
+            display: none;
+            flex-direction: column;
+            background: #fff;
+            /* min-width: 180px; */
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .submenu li a {
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        .submenu li a:hover {
+            /* background: #008a5c; */
+
+            color: rgb(12, 9, 9);
+        }
+
+        /* Desktop hover */
+        @media screen and (min-width: 769px) {
+            .products:hover .submenu {
+                display: flex;
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Mobile submenu */
+        @media screen and (max-width: 768px) {
+            .submenu {
+                position: static;
+                background: rgb(0 0 0 / 95%);
+                box-shadow: none;
+                border-radius: 0;
+                width: 100%;
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            .submenu li a {
+                color: white;
+            }
+
+            .submenu.open {
+                display: flex;
+            }
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .bar {
+            width: 25px;
+            height: 3px;
+            background: white;
+            margin: 3px 0;
+            transition: all 0.3s;
+        }
+
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
+        /* Mobile menu */
+        @media screen and (max-width: 768px) {
+            .nav-menu {
+                flex-direction: column;
+                position: fixed;
+                top: 70px;
+                left: -100%;
+                background: rgb(0 0 0 / 99%);
+                width: 100%;
+                text-align: center;
+                transition: left 0.3s;
+                padding: 2rem 0;
+                gap: 0;
+            }
+
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .nav-item {
+                width: 100%;
+            }
+
+            .nav-link {
+                padding: 1rem;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Navigation Header -->
+
     <header class="header">
         <nav class="navbar">
             <!-- Logo -->
             <div class="header-left">
                 <a href="index.php">
-                    <img src="assets/images/logo2.png" alt="Novorbis Itus Pvt Ltd Logo" class="margin-top: 5px;">
+                    <img src="assets/images/logo2.png" alt="Logo">
                 </a>
             </div>
 
-            <!-- Navigation Menu -->
+            <!-- Menu -->
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.php" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.php" class="nav-link">About Us</a>
-                </li>
+                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
                 <li class="nav-item products">
-                    <a href="" class="nav-link">Products</a>
+                    <a href="#" class="nav-link">Products</a>
                     <ul class="submenu">
-                        <li class="">
-                            <a href="carbon-free-caps.php">CAPS</a>
-                        </li>
-                        <li class="submenu-divider"></li>
-                        <li class="">
-                            <a href="carbon-free-recds.php">RECD</a>
-                        </li>
+                        <li><a href="carbon-free-caps.php">CAPS</a></li>
+                        <li><a href="carbon-free-recds.php">RECD</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="regulations.php" class="nav-link">Regulations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.php" class="nav-link">Contact</a>
-                </li>
+                <li class="nav-item"><a href="regulations.php" class="nav-link">Regulations</a></li>
+                <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
             </ul>
 
-            <!-- Hamburger Menu -->
+            <!-- Hamburger -->
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -57,7 +233,59 @@
         </nav>
     </header>
 
-    <script src="navbar_script.js"></script>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        const products = document.querySelector('.products');
+        const productsLink = products.querySelector('.nav-link');
+        const productsSubMenu = products.querySelector('.submenu');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // Toggle mobile menu
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Mobile submenu toggle
+        productsLink.addEventListener('click', (e) => {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                productsSubMenu.classList.toggle('open');
+            }
+        });
+
+        // Close submenu when clicking outside (mobile)
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth <= 768) {
+                if (!products.contains(e.target)) {
+                    productsSubMenu.classList.remove('open');
+                }
+            }
+        });
+
+        // Reset on resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                productsSubMenu.classList.remove('open');
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+
+        // Highlight active link
+        function setActiveLink() {
+            const currentPath = window.location.pathname.split('/').pop();
+            navLinks.forEach(link => {
+                const linkPath = link.getAttribute('href');
+                if (linkPath === currentPath) {
+                    link.classList.add('active');
+                }
+            });
+        }
+        setActiveLink();
+    </script>
+
 </body>
 
 </html>

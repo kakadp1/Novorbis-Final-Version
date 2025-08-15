@@ -34,7 +34,7 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
 
 <body>
     <!-- using navbar for other using navbar1 why? -->
-    <?php include "navbar.php" ?>
+    <?php include "navbar_index.html" ?>
 
     <div class="rts-bread-crumb-area">
         <div class="container">
@@ -99,18 +99,18 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
                 </div> -->
                     <!-- Need to be done by some designers -->
                 </div>
-                
+
                 <div class="ceo-quote-container">
-    <img src="<?php echo htmlspecialchars($ceo_photo_url); ?>" alt="CEO Photo" class="ceo-photo">
-    <div class="ceo-quote-text">
-        <div class="ceo-quote">
-            <span style="color:#258152;font-size:1.4em;">&#10077;</span>
-            <?php echo htmlspecialchars($ceo_quote); ?>
-        </div>
-        <div class="ceo-name"><?php echo htmlspecialchars($ceo_name); ?></div>
-        <div class="ceo-title"><?php echo htmlspecialchars($ceo_title); ?></div>
-    </div>
-</div>
+                    <img src="<?php echo htmlspecialchars($ceo_photo_url); ?>" alt="CEO Photo" class="ceo-photo">
+                    <div class="ceo-quote-text">
+                        <div class="ceo-quote">
+                            <span style="color:#258152;font-size:1.4em;">&#10077;</span>
+                            <?php echo htmlspecialchars($ceo_quote); ?>
+                        </div>
+                        <div class="ceo-name"><?php echo htmlspecialchars($ceo_name); ?></div>
+                        <div class="ceo-title"><?php echo htmlspecialchars($ceo_title); ?></div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -237,7 +237,8 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
                                         <i class="fa-regular fa-share-nodes"></i>
                                     </a>
                                     <ul class="share-nav">
-                                        <li><a href="https://www.linkedin.com/in/harsh-neekhra/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/harsh-neekhra/?originalSubdomain=in"><i
+                                                    class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -258,7 +259,9 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
                                         <i class="fa-regular fa-share-nodes"></i>
                                     </a>
                                     <ul class="share-nav">
-                                        <li><a href="https://www.linkedin.com/in/gagan-tripathi-660480128/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a></li>
+                                        <li><a
+                                                href="https://www.linkedin.com/in/gagan-tripathi-660480128/?originalSubdomain=in"><i
+                                                    class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -279,7 +282,9 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
                                         <i class="fa-regular fa-share-nodes"></i>
                                     </a>
                                     <ul class="share-nav">
-                                        <li><a href="https://www.linkedin.com/in/divyank-gupta-2275ba15b/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a></li>
+                                        <li><a
+                                                href="https://www.linkedin.com/in/divyank-gupta-2275ba15b/?originalSubdomain=in"><i
+                                                    class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

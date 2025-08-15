@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <?php include "navbar.php" ?>
+    <?php include "navbar_index.html" ?>
 
     <div class="rts-bread-crumb-area">
         <div class="container">
