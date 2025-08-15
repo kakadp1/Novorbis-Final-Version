@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="navbar_style.css">
+</head>
+
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="header-left">
+                <a href="index.php">
+                    <img src="assets/images/logo2.png" alt="Novorbis Itus Pvt Ltd Logo" class="margin-top: 5px;">
+                </a>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.php" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.php" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item products">
+                    <a href="" class="nav-link">Products</a>
+                    <ul class="submenu">
+                        <li class="">
+                            <a href="carbon-free-caps.php">CAPS</a>
+                        </li>
+                        <li class="submenu-divider"></li>
+                        <li class="">
+                            <a href="carbon-free-recds.php">RECD</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="regulations.php" class="nav-link">Regulations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <script src="navbar_script.js"></script>
+</body>
+
+</html>
