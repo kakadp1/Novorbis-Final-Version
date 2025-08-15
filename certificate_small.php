@@ -275,7 +275,7 @@
                                 <div class="inner-decorative-border"></div>
 
                                 <div class="certificate-content">
-                                    <div class="certificate-title">Approval 500</div>
+                                    <div class="certificate-title">Approval 500 KVA</div>
                                 </div>
                             </div>
                         </div>
@@ -299,7 +299,7 @@
                             <div class="inner-decorative-border"></div>
 
                             <div class="certificate-content">
-                                <div class="certificate-title">Approval 125-250</div>
+                                <div class="certificate-title">Approval 125-250 KVA</div>
                             </div>
                         </div>
                     </div>

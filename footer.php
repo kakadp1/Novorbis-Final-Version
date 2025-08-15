@@ -132,13 +132,13 @@
                                             <li>
                                                 <a href="carbon-free-recds.php">
                                                     <i class="fa-regular fa-chevron-right"></i>
-                                                    <p>Carbon Free RECDs</p>
+                                                    <p>CarbonFree RECD</p>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="carbon-free-caps.php">
                                                     <i class="fa-regular fa-chevron-right"></i>
-                                                    <p>Carbon Free CAPS</p>
+                                                    <p>CarbonFree CAPS</p>
                                                 </a>
                                             </li>
                                         </ul>
@@ -261,7 +261,7 @@
                 </div>
             </div>
         </div>
-        
+       
     </div>
 </div>
 

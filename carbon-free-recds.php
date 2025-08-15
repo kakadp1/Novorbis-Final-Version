@@ -114,7 +114,8 @@
 
             .recd-image img {
             width: 100%;
-            max-width: 500px;
+            height: 300px;
+            max-width: 533px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.08);
             }
@@ -154,6 +155,10 @@
                 font-size: 18px;
             }
             }
+
+            @media (max-width: 768px) {
+
+               }
         /* ===== HOW IT WORKS ===== */
         .steps {
             display: flex;
@@ -390,8 +395,40 @@
         }
         }
 
+        .step {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+  }
 
-
+  /* How it works */
+  @keyframes flowAnimation {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
+    }
+    /* Responsive for smaller screens */
+    @media (max-width:1100px){
+      .hiw-steps-list {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .hiw-timeline-horizontal > div.animated-line-wrap {
+        position: relative !important;
+        top: unset !important;
+        left: unset !important;
+        right: unset !important;
+        height: 10px;
+        width: 100%;
+        transform: none !important;
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+    }
 
     </style>
 </head>
@@ -419,7 +456,7 @@
     <!-- Right: Text -->
     <div class="recd-text">
       <h2>CarbonFree™ RECD</h2>
-      <h3>Unlock Clean Air. Maximize Efficiency</h3>
+      <h3>Unlock Clean Air. Maximize Efficiency.</h3>
       <p>
         At Novorbis Itus, we are pioneering a new era of emission control with our 
         <strong>CarbonFree™ RECD</strong>, India’s only truly filter-less Retrofit Emission Control Device (RECD), 
@@ -435,7 +472,7 @@
   <div class="kb-container">
     <header class="kb-header">
       <h2>Key Benefits</h2>
-      <p>What you gain with CarbonFree™ RECD</p>
+      <p>What you gain with CarbonFree™ RECD?</p>
     </header>
 
     <ul class="kb-grid" role="list">
@@ -583,7 +620,115 @@
     </div>
     </section>
 
+    <!-- How it works -->
+     <!-- HOW IT WORKS - Horizontal Timeline with Extended Air Flow -->
+<section class="how-it-works" style="background:#f8faf9;padding:56px 0;">
+  <div class="hiw-container" style="max-width:1120px;margin:0 auto;">
+    <header style="text-align:center;margin-bottom:36px;">
+      <h2 style="color:#263529;font-size:28px;margin-bottom:6px;">How CarbonFree™ RECD Works</h2>
+      <p style="color:#5b6e62;font-size:16px;margin:0 0 2px;">A seamless, filter-less multi-stage process for unmatched clean air.</p>
+    </header>
+    <div class="hiw-timeline-horizontal" style="display:flex;align-items:flex-start;justify-content:center;position:relative;gap:0;flex-wrap:wrap;">
 
+      <!-- Animated Air Flow Line with pipe extension -->
+      <div class="animated-line-wrap" style="position:absolute;top:50%;left:4%;right:4%;height:10px;border-radius:8px;overflow:hidden;z-index:1;transform:translateY(-50%);">
+        <div class="animated-line" style="
+          height: 100%;
+          width: 220%;
+          max-width: calc(100% + 120px);
+          background: linear-gradient(90deg, 
+            #2e8b57 15%, 
+            #bef2d4 30%,
+            #2e8b57 45%, 
+            #bef2d4 60%,
+            #2e8b57 75%);
+          background-size: 50% 100%;
+          animation: flowAnimation 3.6s linear infinite;
+          border-radius: 8px;
+          ">
+        </div>
+      </div>
+
+      <!-- Steps -->
+      <ol class="hiw-steps-list" style="display:flex;justify-content:space-between;align-items:flex-start;list-style:none;padding:0;margin:0;width:100%;z-index:2;">
+        <li data-aos="fade-up" style="flex:1;min-width:160px;display:flex;flex-direction:column;align-items:center;position:relative;">
+          <!-- Gas Inlet Icon -->
+          <span style="margin-bottom:15px;display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:rgba(46,139,87,.09);">
+            <svg width="26" height="26" fill="none" stroke="#2e8b57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M6 12h14M6 12a4 4 0 1 1 0-8C7.67 4 9 5.33 9 7v6"/>
+            </svg>
+          </span>
+          <div class="hiw-step-card" style="background:#fff;border-radius:8px;padding:17px 15px;box-shadow:0 3px 12px rgba(16,24,20,0.05);margin-top:0;max-width:180px;">
+            <h3 style="margin:0 0 5px 0;font-size:17px;color:#263529;font-weight:600;text-align:center;">1. Gas Inlet</h3>
+            <p style="color:#5b6e62;font-size:15px;margin:0;text-align:center;">Exhaust gas enters directly from the generator.</p>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-delay="90" style="flex:1;min-width:160px;display:flex;flex-direction:column;align-items:center;position:relative;">
+          <!-- Particle Charging Icon -->
+          <span style="margin-bottom:15px;display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:rgba(46,139,87,.09);">
+            <svg width="26" height="26" fill="none" stroke="#2e8b57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <polygon points="13 2 3 14 12 14 11 22 21 8 13 8 13 2"/>
+            </svg>
+          </span>
+          <div class="hiw-step-card" style="background:#fff;border-radius:8px;padding:17px 15px;box-shadow:0 3px 12px rgba(16,24,20,0.05);margin-top:0;max-width:180px;">
+            <h3 style="margin:0 0 5px 0;font-size:17px;color:#263529;font-weight:600;text-align:center;">2. Particle Charging</h3>
+            <p style="color:#5b6e62;font-size:15px;margin:0;text-align:center;">A corona discharge charges fine particles for efficient removal.</p>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-delay="180" style="flex:1;min-width:160px;display:flex;flex-direction:column;align-items:center;position:relative;">
+          <!-- Electrostatic Collection Icon -->
+          <span style="margin-bottom:15px;display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:rgba(46,139,87,.09);">
+            <svg width="26" height="26" fill="none" stroke="#2e8b57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <rect x="3" y="7" width="18" height="7" rx="2"></rect>
+              <path d="M7 20v-6M17 20v-6"></path>
+            </svg>
+          </span>
+          <div class="hiw-step-card" style="background:#fff;border-radius:8px;padding:17px 15px;box-shadow:0 3px 12px rgba(16,24,20,0.05);margin-top:0;max-width:180px;">
+            <h3 style="margin:0 0 5px 0;font-size:17px;color:#263529;font-weight:600;text-align:center;">3. Electrostatic Collection</h3>
+            <p style="color:#5b6e62;font-size:15px;margin:0;text-align:center;">Charged particles adhere to collection plates, trapping pollution.</p>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-delay="270" style="flex:1;min-width:160px;display:flex;flex-direction:column;align-items:center;position:relative;">
+          <!-- Automatic Cleaning Icon -->
+          <span style="margin-bottom:15px;display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:rgba(46,139,87,.09);">
+            <svg width="26" height="26" fill="none" stroke="#2e8b57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M12 3C9.07 7.13 5 13.68 5 17a7 7 0 0 0 14 0c0-3.32-4.07-9.87-7-14z"></path>
+            </svg>
+          </span>
+          <div class="hiw-step-card" style="background:#fff;border-radius:8px;padding:17px 15px;box-shadow:0 3px 12px rgba(16,24,20,0.05);margin-top:0;max-width:180px;">
+            <h3 style="margin:0 0 5px 0;font-size:17px;color:#263529;font-weight:600;text-align:center;">4. Automatic Cleaning</h3>
+            <p style="color:#5b6e62;font-size:15px;margin:0;text-align:center;">Water flush periodically removes trapped pollutants automatically.</p>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-delay="360" style="flex:1;min-width:160px;display:flex;flex-direction:column;align-items:center;position:relative;">
+          <!-- Clean Gas Exit Icon -->
+          <span style="margin-bottom:15px;display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:rgba(46,139,87,.09);">
+            <svg width="26" height="26" fill="none" stroke="#2e8b57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M18 8a6 6 0 1 0-12 0c0 7 6 13 6 13s6-6 6-13"/>
+              <path d="M6 8a6 6 0 0 1 12 0"/>
+            </svg>
+          </span>
+          <div class="hiw-step-card" style="background:#fff;border-radius:8px;padding:17px 15px;box-shadow:0 3px 12px rgba(16,24,20,0.05);margin-top:0;max-width:180px;">
+            <h3 style="margin:0 0 5px 0;font-size:17px;color:#263529;font-weight:600;text-align:center;">5. Clean Gas Exit</h3>
+            <p style="color:#5b6e62;font-size:15px;margin:0;text-align:center;">Purified air is released back into the atmosphere.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+</section>
+
+<section class="closing-message" style="background:#36af45; color:#f0f4f1; padding:17px 20px; text-align:center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <h2 style="font-size:28px; font-weight:700; letter-spacing:0.05em;">
+    Fits Every Diesel Genset – No Exceptions
+  </h2>
+  <!-- <p style="font-size:18px; max-width:900px; margin:0 auto; line-height:1.6;">
+    Whether it’s powering a hospital, a data center, or an entire factory, 
+    <strong>CarbonFree RECD</strong> integrates seamlessly with <strong>any diesel generator</strong>. 
+    <strong>No complicated retrofitting. Just pure, plug-and-play clean air.</strong>
+  </p> -->
+</section>
     
 
     <?php include "footer.php" ?>
@@ -593,6 +738,8 @@
     <script>
         AOS.init({ duration: 1000, once: true });
     </script>
+
+
 
 </body>
 
