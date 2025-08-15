@@ -132,7 +132,7 @@
                         <a href="assets\images\Pdf\state\DELHI.pdf">
                             <img src="assets/images/media/2.webp" class="card-img-top" alt="..."></a>
                         <div class="card-body">
-                            <h6 class="card-title">Delhi</h6>
+                            <h6 class="card-title">Delhi NCR</h6>
                         </div>
                     </div>
                 </div>

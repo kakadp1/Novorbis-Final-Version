@@ -29,10 +29,10 @@
                             <a class="nav-link individualPadding" href="#">Products</a>
                             <ul class="submenu">
                                 <li class="<?= ($currentPage == 'carbon-free-recds.php') ? 'active' : '' ?>">
-                                    <a href="carbon-free-recds.php">RECDs</a>
+                                    <a href="carbon-free-recds.php">CarbonFree RECDs</a>
                                 </li>
                                 <li class="<?= ($currentPage == 'carbon-free-caps.php') ? 'active' : '' ?>">
-                                    <a href="carbon-free-caps.php">CAPS</a>
+                                    <a href="carbon-free-caps.php">CarbonFree CAPS</a>
                                 </li>
                             </ul>
                         </li>

@@ -162,7 +162,7 @@
                                         CarbonFree RECD: Next Gen Retrofit Emission Control System
                                     </h5>
                                 </a>
-                                <a href="#" class="read-more-btn">Read More <i
+                                <a href="carbon-free-recds.php" class="read-more-btn">Read More <i
                                         class="fa-sharp fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                                         CarbonFree CAPS: Honoring Every Departure with Cleaner air
                                     </h5>
                                 </a>
-                                <a href="#" class="read-more-btn">Read More <i
+                                <a href="carbon-free-caps.php" class="read-more-btn">Read More <i
                                         class="fa-sharp fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -205,7 +205,7 @@
                                         Shaping a Cleaner Future Through Innovation — Beyond Devices
                                     </h5>
                                 </a>
-                                <a href="#" class="read-more-btn read-more-btn-spacing-future">Read More <i
+                                <a href="contact.php" class="read-more-btn read-more-btn-spacing-future">Read More <i
                                         class="fa-sharp fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>

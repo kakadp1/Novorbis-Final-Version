@@ -4,8 +4,8 @@
 // ===================================
 $ceo_photo_url = "assets/images/ceo-photo.png"; // Path to CEO's photo
 $ceo_name = "Harsh Neekhra";
-$ceo_title = "Co-Founder & CEO";
-$ceo_quote = "True innovation is not a product of mere capability or hard work; it is born from the convergence of capability, hard work, and a vision that becomes an obsession.";
+$ceo_title = "Founder & CEO";
+$ceo_quote = "Innovation thrives where skill meets relentless effort, driven by a vision so powerful it becomes an unshakable obsession.";
 ?>
 
 <!DOCTYPE html>
@@ -177,7 +177,7 @@ $ceo_quote = "True innovation is not a product of mere capability or hard work; 
                                     aria-labelledby="pills-profile-tab">
                                     <!-- single nav content start -->
                                     <div class="single-about-content-solar">
-                                        <b>Vission</b>
+                                        <b>Vision</b>
                                         <p class="disc">
                                             To lead the transition
                                             to cleaner air and a
@@ -227,7 +227,7 @@ $ceo_quote = "True innovation is not a product of mere capability or hard work; 
                         </div>
                     </div>
                 </div>
-                <div class="row mt--30 g-24">
+                <div class="row mt--30 g-24" style="justify-content: center; display: flex;">
                     <div class="col-lg-3">
                         <div class="solar-energy-team" data-aos="fade-up" data-aos-duration="300">
                             <div class="thumbnail">
@@ -237,9 +237,7 @@ $ceo_quote = "True innovation is not a product of mere capability or hard work; 
                                         <i class="fa-regular fa-share-nodes"></i>
                                     </a>
                                     <ul class="share-nav">
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/harsh-neekhra/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -260,9 +258,7 @@ $ceo_quote = "True innovation is not a product of mere capability or hard work; 
                                         <i class="fa-regular fa-share-nodes"></i>
                                     </a>
                                     <ul class="share-nav">
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/gagan-tripathi-660480128/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -283,9 +279,7 @@ $ceo_quote = "True innovation is not a product of mere capability or hard work; 
                                         <i class="fa-regular fa-share-nodes"></i>
                                     </a>
                                     <ul class="share-nav">
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/divyank-gupta-2275ba15b/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -294,29 +288,6 @@ $ceo_quote = "True innovation is not a product of mere capability or hard work; 
                                     <h5 class="title">Divyank Gupta</h5>
                                 </a>
                                 <span>Director, Sales <br>Novorbis ITUS</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="solar-energy-team" data-aos="fade-up" data-aos-duration="1200">
-                            <div class="thumbnail">
-                                <img src="assets/images/team/profile.jpg" alt="team">
-                                <div class="share-team-h1">
-                                    <a href="#" class="share-icon">
-                                        <i class="fa-regular fa-share-nodes"></i>
-                                    </a>
-                                    <ul class="share-nav">
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="inner-content">
-                                <a href="#">
-                                    <h5 class="title">Naman</h5>
-                                </a>
-                                <span>Other <br> Novorbis ITUS</span>
                             </div>
                         </div>
                     </div>
