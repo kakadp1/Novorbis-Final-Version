@@ -700,7 +700,7 @@
 
 <section class="closing-message" style="background:#36af45; color:#f0f4f1; padding:17px 20px; text-align:center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <h2 style="font-size:28px; font-weight:700; letter-spacing:0.05em;">
-    Works with all electric, gas, and traditional crematoriums 
+     Works with all Electric, Gas, and Traditional Crematoriums 
   </h2>
   <!-- <p style="font-size:18px; max-width:900px; margin:0 auto; line-height:1.6;">
     Whether it’s powering a hospital, a data center, or an entire factory, 
