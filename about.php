@@ -26,6 +26,7 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
     <link rel="stylesheet" href="assets/css/plugins/metismenu.css">
     <link rel="stylesheet" href="assets/css/vendor/animate.css">
     <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- Custom css -->
@@ -234,7 +235,7 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
                                 <img src="assets/images/team/profile.jpg" alt="team">
                                 <div class="share-team-h1">
                                     <a href="#" class="share-icon">
-                                        <i class="fa-regular fa-share-nodes"></i>
+                                        <i class="fa fa-share-alt"></i>
                                     </a>
                                     <ul class="share-nav">
                                         <li><a href="https://www.linkedin.com/in/harsh-neekhra/?originalSubdomain=in"><i
@@ -256,7 +257,7 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
                                 <img src="assets/images/team/profile.jpg" alt="team">
                                 <div class="share-team-h1">
                                     <a href="#" class="share-icon">
-                                        <i class="fa-regular fa-share-nodes"></i>
+                                        <i class="fa fa-share-alt"></i>
                                     </a>
                                     <ul class="share-nav">
                                         <li><a
@@ -279,7 +280,7 @@ $ceo_quote = "Innovation thrives where skill meets relentless effort, driven by 
                                 <img src="assets/images/team/profile.jpg" alt="team">
                                 <div class="share-team-h1">
                                     <a href="#" class="share-icon">
-                                        <i class="fa-regular fa-share-nodes"></i>
+                                        <i class="fa fa-share-alt"></i>
                                     </a>
                                     <ul class="share-nav">
                                         <li><a
