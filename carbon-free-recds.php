@@ -433,6 +433,11 @@
       .hiw-steps-list {
         flex-direction: column;
         align-items: stretch;
+
+      }
+
+      .animated-line {
+        display: none
       }
 
       .hiw-timeline-horizontal>div.animated-line-wrap {
@@ -685,7 +690,7 @@
 
         <!-- Steps -->
         <ol class="hiw-steps-list"
-          style="display:flex;justify-content:space-between;align-items:flex-start;list-style:none;padding:0;margin:0;width:100%;z-index:2;">
+          style="display:flex;justify-content:space-between;align-items:center;list-style:none;padding:0;margin:0;width:100%;z-index:2;">
           <li data-aos="fade-up"
             style="flex:1;min-width:160px;display:flex;flex-direction:column;align-items:center;position:relative;">
             <!-- Gas Inlet Icon -->

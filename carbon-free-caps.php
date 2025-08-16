@@ -423,6 +423,12 @@
         overflow: hidden;
         border-radius: 8px;
       }
+
+      /* green line will get removed for smaller screens */
+      .animated-line {
+        display: none
+      }
+
     }
   </style>
 </head>
