@@ -117,15 +117,13 @@
             </div>
             <div class="row mt--30 g-24">
                 <div class="col-md-2 col-6">
-                    <button type="button" data-bs-toggle="modal" data-bs-target="#Andhra">
-                        <div class="text-center p-4">
-                            <a href="assets\images\Pdf\state\Arunachal Pradesh.pdf"><img
-                                    src="assets/images/media/1.webp" class="card-img-top" alt="..."></a>
-                            <div class="card-body">
-                                <h6 class="card-title">Andhra Pradesh</h6>
-                            </div>
+                    <div class="text-center p-4">
+                        <a href="assets\images\Pdf\state\Arunachal Pradesh.pdf"><img src="assets/images/media/1.webp"
+                                class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h6 class="card-title">Andhra Pradesh</h6>
                         </div>
-                    </button>
+                    </div>
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
@@ -148,7 +146,8 @@
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="text-center p-4">
-                        <img src="assets/images/media/4.webp" class="card-img-top" alt="Gujrat">
+                        <a href="assets\images\Pdf\state\Gujrat.pdf">
+                            <img src="assets/images/media/4.webp" class="card-img-top" alt="Gujrat"></a>
                         <div class="card-body">
                             <h6 class="card-title">Gujrat</h6>
                         </div>
