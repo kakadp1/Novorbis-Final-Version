@@ -409,6 +409,9 @@
       .hiw-steps-list {
         flex-direction: column;
         align-items: center;
+        gap: 10px !important;
+        flex-wrap: wrap !important;
+        flex-direction: row;
       }
 
       .hiw-timeline-horizontal>div.animated-line-wrap {

@@ -433,9 +433,12 @@
       .hiw-steps-list {
         flex-direction: column;
         align-items: stretch;
-
+        gap: 10px !important;
+        flex-wrap: wrap !important;
+        flex-direction: row;
       }
 
+      /* green line will get removed for smaller screens */
       .animated-line {
         display: none
       }
