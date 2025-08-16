@@ -32,7 +32,7 @@
 
         /* Navbar container */
         .navbar {
-            max-width: 1816px;
+            max-width: 1766px;
             margin: auto;
             padding: 1rem 2rem;
             display: flex;
@@ -319,15 +319,34 @@
 
         // Highlight active link
         function setActiveLink() {
-            const currentPath = window.location.pathname.split('/').pop();
+            // Get current page name (ignore query params)
+            const currentPath = window.location.pathname.split('/').pop().split('?')[0];
             navLinks.forEach(link => {
-                const linkPath = link.getAttribute('href');
+                link.classList.remove('active');
+            });
+
+            let submenuActive = false;
+
+            navLinks.forEach(link => {
+                // Get link path (ignore query params)
+                const linkPath = link.getAttribute('href').split('?')[0];
                 if (linkPath === currentPath) {
                     link.classList.add('active');
+                    // If submenu item is active, also highlight Products
+                    if (productsSubMenu.contains(link)) {
+                        productsLink.classList.add('active');
+                        submenuActive = true;
+                    }
                 }
             });
+
+            // If no submenu is active, remove Products highlight
+            if (!submenuActive) {
+                productsLink.classList.remove('active');
+            }
         }
         setActiveLink();
+
     </script>
 
 </body>

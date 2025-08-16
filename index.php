@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -163,7 +164,7 @@
                                     </h5>
                                 </a>
                                 <a href="carbon-free-recds.php" class="read-more-btn">Read More <i
-                                        class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                        style='font-size:24px' class='fas'>&#xf061;</i></a>
                             </div>
                         </div>
                     </div>
@@ -183,8 +184,8 @@
                                         CarbonFree CAPS: Honoring Every Departure with Cleaner air
                                     </h5>
                                 </a>
-                                <a href="carbon-free-caps.php" class="read-more-btn">Read More <i
-                                        class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                <a href="carbon-free-caps.php" class="read-more-btn">Read More <i style='font-size:24px'
+                                        class='fas'>&#xf061;</i></a>
                             </div>
                         </div>
                     </div>
@@ -206,7 +207,7 @@
                                     </h5>
                                 </a>
                                 <a href="contact.php" class="read-more-btn read-more-btn-spacing-future">Read More <i
-                                        class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                        style='font-size:24px' class='fas'>&#xf061;</i></a>
                             </div>
                         </div>
                     </div>
