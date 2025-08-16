@@ -408,7 +408,7 @@
     @media (max-width:1100px) {
       .hiw-steps-list {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
       }
 
       .hiw-timeline-horizontal>div.animated-line-wrap {
@@ -665,7 +665,7 @@
           </div>
         </div>
         <ol class="hiw-steps-list"
-          style="display:flex;justify-content:space-between;align-items:flex-start;list-style:none;padding:0;margin:0;width:100%;z-index:2; margin-right: 19px; gap: 17px;">
+          style="display:flex;justify-content:space-between;align-items:center;list-style:none;padding:0;margin:0;width:100%;z-index:2; margin-right: 19px; gap: 17px;">
           <!-- 1. Gas Capture -->
           <li data-aos="fade-up"
             style="flex:1;min-width:160px;display:flex;flex-direction:column;align-items:center;position:relative;margin:0 12px;">
