@@ -261,7 +261,7 @@
                 </div>
             </div>
         </div>
-       
+
     </div>
 </div>
 
@@ -302,12 +302,18 @@
         position: absolute;
         left: 0%;
         top: 0;
-        min-width: 211px;
+        max-width: 198px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         z-index: 10;
         padding-left: 0;
         background-color: black;
         border-radius: 10px
+    }
+
+    @media screen and (min-width: 1000px) {
+        .pages-footer ul li.has-dropdown .submenu {
+            min-width: 198px;
+        }
     }
 
     .pages-footer ul li.has-dropdown:hover .submenu {
